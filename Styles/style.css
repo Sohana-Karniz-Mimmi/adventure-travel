@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: rgba(19, 19, 24, 0.70);
+  --btn-color: #ff5400;
+  --gray-color: #5a5a5d;
+  --black: #131318;
+  --text-color: rgba(19, 19, 24, 0.5);
+}
+
+/* Default Style */
+
+body {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+}
+
+p {
+  color: var(--primary-color);
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section-title {
+  color: #131318;
+  font-weight: 800;
+  font-size: 2.3rem;
+  color: var(--black);
+}
+
+.app-btn {
+  background: var(--btn-color);
+  padding: 11.2px 24px 8px;
+  border-radius: 8px;
+}
+
+.container {
+  width: 82%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/* Navbar style start here */
+
+.nav-container {
+  min-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+.logo-container {
+  display: flex;
+}
+
+.menu-bar {
+  display: none;
+}
+
+.logo {
+  width: 48px;
+  margin-right: 1.1rem;
+}
+
+.logo-container img {
+  object-fit: cover;
+}
+
+.web-site-name {
+  font-size: 2rem;
+}
+
+.span-text {
+  color: var(--btn-color);
+}
+
+.menus {
+  display: flex;
+  gap: 2.9rem;
+}
+
+.menus li {
+  list-style: none;
+  font-size: 1rem;
+}
+
+.menus li a {
+  color: #424247;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.menus li:first-child a {
+  color: var(--btn-color);
+}
+
+.menus li a:hover {
+  color: var(--btn-color);
+}
+
+
