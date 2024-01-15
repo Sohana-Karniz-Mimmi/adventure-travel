@@ -7,7 +7,7 @@
 }
 
 :root {
-  --primary-color: rgba(19, 19, 24, 0.70);
+  --primary-color: rgba(19, 19, 24, 0.7);
   --btn-color: #ff5400;
   --gray-color: #5a5a5d;
   --black: #131318;
@@ -19,6 +19,12 @@
 body {
   font-family: "Mulish", sans-serif;
   font-weight: 400;
+}
+
+.container {
+  width: 82%;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 
 p {
@@ -34,24 +40,23 @@ a {
 }
 
 .section-title {
-  color: #131318;
   font-weight: 800;
   font-size: 2.3rem;
   color: var(--black);
 }
 
-.app-btn {
+.btn-primary {
   background: var(--btn-color);
+  text-align: center;
   padding: 11.2px 24px 8px;
   border-radius: 8px;
+  cursor: pointer;
+  border: none;
 }
 
-.container {
-  width: 82%;
-  max-width: 1170px;
-  margin: 0 auto;
+section {
+  margin-bottom: 100px;
 }
-
 /* Navbar style start here */
 
 .nav-container {
@@ -110,4 +115,85 @@ a {
   color: var(--btn-color);
 }
 
+/* banner Styles Starts Here */
 
+.banner {
+  border-radius: 16px;
+  background: ;
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/Group 13.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  height: 465px;
+  margin-top: 50px;
+  background-attachment: local;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner-title {
+  color: #fff;
+  font-size: 57px;
+  width: 550px;
+}
+
+.banner-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 15px;
+  margin: 18px 0;
+  width: 597px;
+  line-height: 30px;
+}
+
+.banner-input-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.banner-box {
+  width: 165px;
+  position: relative;
+  display: inline-block;
+}
+
+.banner-box i {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: var(--text-color);
+}
+
+.banner-box input {
+  font-family: "Mulish", sans-serif;
+  width: 100%;
+  color: var(--text-color);
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding: 18px;
+}
+
+.banner-btn{
+    color: #fff !important ;
+    left: -87px !important;
+}
