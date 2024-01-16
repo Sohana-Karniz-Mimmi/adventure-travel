@@ -27,11 +27,11 @@
 
   .banner-input-box {
     gap: 16px;
-    margin-bottom: 92px;
+    margin-bottom: 30px;
   }
 
   .banner-box{
-   width: 300px; 
+   width: 290px; 
   }
 
   .banner-box input{
@@ -48,4 +48,38 @@
     width: 350px;
     margin: auto;
   }
+
+  /* Our Popular Tour  */
+
+  .popular-tour-container{
+      flex-direction: column;
+      gap: 20px;
+      height: auto;
+  }
+  .tour-content{
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+  }
+  .info-right{
+      width: 100%;
+  }
+  .tour-title{
+      color: #131318;
+      font-size: 20px;
+      font-weight: 800;
+  }
+  .tour-description, ul li{
+      color: #5A5A5D;
+      font-size: 14px;
+      line-height: 24px;
+      }
+  .info-right > img{
+      width: 100%;
+      border-radius: 11px;
+  }
+  .tour-content ul, .des1, .des2{
+      margin-top: 10px;
+  }
+
 }
