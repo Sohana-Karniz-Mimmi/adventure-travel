@@ -197,3 +197,11 @@ section {
     color: #fff !important ;
     left: -87px !important;
 }
+
+/* Our Popular Tours Section Style Start Here  */
+
+.popular-tour-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

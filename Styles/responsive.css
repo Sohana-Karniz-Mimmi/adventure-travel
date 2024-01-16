@@ -15,6 +15,11 @@
     cursor: pointer;
   }
 
+  .banner{
+    flex-direction: column;
+    height: auto;
+  }
+
   .banner-content-wrapper,
   .banner-input-box {
     flex-direction: column;
