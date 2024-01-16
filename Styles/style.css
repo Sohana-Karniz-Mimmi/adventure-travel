@@ -214,7 +214,9 @@ section {
   line-height: 26px;
   margin-bottom: 18px;
 }
-
+ ul{
+  padding-left: 25px;
+}
 .des1, .des2 {
   margin-top: 25px;
 }
