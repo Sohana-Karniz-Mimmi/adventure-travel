@@ -298,3 +298,52 @@ section {
   width: 670px;
   height: 300px;
 }
+
+
+/* Why Choose Us Section Style Here */
+
+.destination-container{
+  margin-top:60px;
+  width: 1170px;
+  
+}
+
+.why-choose-content{
+  padding: 0px 200px;
+  padding-bottom: 35px;
+  text-align: center;
+}
+
+.card-title {
+  margin: 15px 0;
+}
+
+.why-choose-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+.cards{
+  width: 570px;
+  height: 280px;
+  box-sizing: border-box;
+  padding: 25px;
+}
+
+.choose-card1 {
+  border-radius: 16px; 
+  background: rgba(251, 181, 99, 0.05);
+  border: 1px solid rgba(251, 181, 99, 0.2);
+}
+.choose-card2 {
+  border-radius: 16px; 
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.choose-card3 {
+  border-radius: 16px; 
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  margin: 0 auto;
+}

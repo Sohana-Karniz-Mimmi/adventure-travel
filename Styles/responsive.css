@@ -90,7 +90,7 @@
   }
 
   .destination-title {
-    font-size: 23px;
+    font-size: 25px;
   }
   .img-container {
     flex-direction: column;
@@ -103,4 +103,21 @@
   .destination-container {
     width: 82%;
   }
+
+
+  /* Why Choose Us */
+  .why-choose-cardscard-des{
+    flex-direction: column;
+    gap: 20px;
+}
+.why-choose-content{
+    padding: 0px 40px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+.cards{
+    width: 100%;
+    border-radius: 15px;
+}
+
 }
