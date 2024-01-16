@@ -347,3 +347,45 @@ section {
   background: rgba(233, 68, 68, 0.05);
   margin: 0 auto;
 }
+
+
+
+/* Footer Style Here */
+.footer{
+  background: rgba(19, 19, 24, 0.05);
+  margin-top: 60px;
+}
+.footer-container{
+  box-sizing: border-box;
+  text-align: center;
+  padding: 100px 0 40px 0;
+  
+
+}
+.footer-logo{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.footer-icon{
+  margin: 50px 0px;
+  border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+  padding-bottom: 48px;
+}
+
+.footer-title{
+  font-size: 2rem;
+}
+
+.footer-icon > a{
+  padding: 20px;
+  font-size: 30px;
+}
+
+.footer-icon > a i{
+  color: #131318;
+}
+
+.copyright{
+  margin-top: 50px;
+}

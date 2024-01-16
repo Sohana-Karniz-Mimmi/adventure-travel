@@ -120,4 +120,26 @@
     border-radius: 15px;
 }
 
+
+/* Footer */
+
+.footer-container{
+  box-sizing: border-box;
+  text-align: center;
+  padding: 40px 0px;
+  
+
+}
+.footer-icon{
+  margin: 30px 0px;
+}
+.footer-icon > a{
+  padding: 10px;
+  font-size: 32px;
+}
+.copyright{
+  margin-top: 30px;
+}
+
+
 }
