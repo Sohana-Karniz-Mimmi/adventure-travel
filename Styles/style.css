@@ -59,7 +59,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 50px 0px;
+  margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .logo-container {
@@ -328,14 +329,6 @@ section {
   margin-bottom: 0;
 }
 
-.item {
-  margin-bottom: 60px;
-}
-
-.item {
-  margin-bottom: 0;
-}
-
 .packages-box {
   padding-bottom: 30px;
   margin-bottom: 30px;
@@ -358,7 +351,6 @@ section {
 
 .packages-image img {
   border-radius: 5px;
-  -webkit-transition: border-radius .18s ease;
   transition: border-radius .18s ease;
 }
 
@@ -367,11 +359,8 @@ section {
 }
 
 .packages-box .item-content {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -380,16 +369,13 @@ section {
 }
 
 .packages-box .offer-time {
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -ms-flex-align: center;
   align-items: center;
   height: 30px;
   background-color: #fff;
   border-radius: 30px;
   padding: 0 25px;
   margin: 0;
-  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
@@ -403,15 +389,13 @@ section {
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: -0.025em;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -ms-flex-align: center;
   align-items: center;
 }
 
 .offer-time-day::after {
   content: "\2022";
-  color: #e00d4e;
+  color: var(--btn-color);
   font-size: 1.5em;
   margin: 0 5px;
 }
@@ -429,10 +413,11 @@ section {
 
 .offer-describtion a {
   color: #2d2d2d;
+  transition: all 0.2s ease 0s;
 }
 
 .offer-describtion a:hover {
-  color: #e00d4e;
+  color: var(--btn-color);
 }
 
 .packages-box .offer-describtion {
@@ -527,6 +512,7 @@ section {
   height: 45px;
   padding: 25px 20px;
   outline: none;
+  font-family: Mulish, sans-serif;
   border: 0;
   border-radius: 8px;
 background: rgba(19, 19, 24, 0.05);

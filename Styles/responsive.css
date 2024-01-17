@@ -57,12 +57,17 @@
     width: 350px;
     margin: auto;
   }
+
+  section {
+    margin-bottom: 30px;
+}
   
 
   /* Our Popular Tour */
   .popular-tour-container {
     flex-direction: column;
     gap: 20px;
+    margin-top: 20px;
     height: auto;
   }
   .tour-content {
@@ -94,7 +99,7 @@
   /* Choose Your Destination */
 
   .destination-content {
-    padding: 0px 20px;
+    padding: 0;
     padding-bottom: 15px;
     text-align: center;
   }
@@ -135,7 +140,21 @@
 .newsletter{
   flex-direction: column;
   gap: 25px;
+  margin-top: 0px;
+  
 }
+
+#newsletter {
+  margin-bottom: 30px;
+}
+
+.nav-container{
+  margin-bottom: 10px;
+}
+.footer, .destination-container, .banner{
+  margin-top: 0;
+}
+
 .newsletter-content{
   width: 100%;
   box-sizing: border-box;
