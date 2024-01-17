@@ -193,4 +193,16 @@
 }
 
 
+
+
+/* extra */
+
+.packages-items-container{
+  flex-direction: column;
+}
+
+.packages-item{
+  width: 100%;
+}
+
 }
