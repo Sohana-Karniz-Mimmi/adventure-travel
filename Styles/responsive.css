@@ -163,11 +163,11 @@
 
 }
 
-.save .top-text{
+.save .save-text{
   margin: 0;
   font-size: 7px;
 }
-.save .bottom-text{
+.save .save-title{
   font-size: 12px;
 }
 
