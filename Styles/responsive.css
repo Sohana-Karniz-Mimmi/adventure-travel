@@ -161,9 +161,9 @@
   padding: 20px;
 }
 
-.save{
+.save-container{
  width: 145px;
- height: 55px;
+ height: 55px; 
 }
 
 .newsletter-content input{
@@ -184,10 +184,10 @@
 
 .save .save-text{
   margin: 0;
-  font-size: 7px;
+  font-size: 14px;
 }
 .save .save-title{
-  font-size: 12px;
+  font-size: 10px;
 }
 
 
