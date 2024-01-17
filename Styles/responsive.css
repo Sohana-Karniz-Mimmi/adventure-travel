@@ -7,12 +7,21 @@
     display: block;
     position: absolute;
     right: 45px;
-    top: 60px;
+    top: 57px;
   }
 
   .menu-bar i {
-    font-size: 30px;
+    font-size: 23px;
     cursor: pointer;
+  }
+
+  .logo{
+    width: 40px;
+  margin-right: 0.6rem;
+  }
+
+  .web-site-name {
+    font-size: 1.5rem;
   }
 
   .banner {
@@ -48,6 +57,7 @@
     width: 350px;
     margin: auto;
   }
+  
 
   /* Our Popular Tour */
   .popular-tour-container {
@@ -131,6 +141,12 @@
   box-sizing: border-box;
   padding: 20px;
 }
+
+.save{
+ width: 145px;
+ height: 55px;
+}
+
 .newsletter-content input{
   width: 100%;
   box-sizing: border-box;
@@ -152,7 +168,6 @@
   font-size: 7px;
 }
 .save .bottom-text{
-  margin: 5px;
   font-size: 12px;
 }
 
